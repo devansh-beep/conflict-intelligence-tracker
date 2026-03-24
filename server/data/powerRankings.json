@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "country": "United States", "countryCode": "US", "score": 0.0453, "activePersonnel": 1328000, "tanks": 5500, "aircraft": 13300, "navy": 920, "budget": 886000000000, "nuclearWarheads": 5550 },
+  { "rank": 2, "country": "Russia", "countryCode": "RU", "score": 0.0501, "activePersonnel": 1320000, "tanks": 12500, "aircraft": 4173, "navy": 598, "budget": 109000000000, "nuclearWarheads": 5889 },
+  { "rank": 3, "country": "China", "countryCode": "CN", "score": 0.0706, "activePersonnel": 2185000, "tanks": 5000, "aircraft": 3304, "navy": 730, "budget": 225000000000, "nuclearWarheads": 500 },
+  { "rank": 4, "country": "India", "countryCode": "IN", "score": 0.1007, "activePersonnel": 1455550, "tanks": 4614, "aircraft": 2296, "navy": 293, "budget": 81400000000, "nuclearWarheads": 172 },
+  { "rank": 5, "country": "South Korea", "countryCode": "KR", "score": 0.1416, "activePersonnel": 555000, "tanks": 2130, "aircraft": 1595, "navy": 234, "budget": 46400000000, "nuclearWarheads": 0 },
+  { "rank": 6, "country": "United Kingdom", "countryCode": "GB", "score": 0.1443, "activePersonnel": 194000, "tanks": 227, "aircraft": 693, "navy": 76, "budget": 72800000000, "nuclearWarheads": 225 },
+  { "rank": 7, "country": "Japan", "countryCode": "JP", "score": 0.1601, "activePersonnel": 247000, "tanks": 1004, "aircraft": 1449, "navy": 155, "budget": 49000000000, "nuclearWarheads": 0 },
+  { "rank": 8, "country": "Turkey", "countryCode": "TR", "score": 0.1648, "activePersonnel": 380000, "tanks": 2889, "aircraft": 1077, "navy": 194, "budget": 39400000000, "nuclearWarheads": 0 },
+  { "rank": 9, "country": "Pakistan", "countryCode": "PK", "score": 0.1711, "activePersonnel": 654000, "tanks": 2627, "aircraft": 1387, "navy": 121, "budget": 10300000000, "nuclearWarheads": 170 },
+  { "rank": 10, "country": "Brazil", "countryCode": "BR", "score": 0.1765, "activePersonnel": 366500, "tanks": 469, "aircraft": 729, "navy": 110, "budget": 19200000000, "nuclearWarheads": 0 }
+]
