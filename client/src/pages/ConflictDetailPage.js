@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { conflictsData, conflictTypeColors, statusColors } from '../data/conflictsData';
 import Navbar from '../components/Navbar';
 import MilitaryComparison from '../components/MilitaryComparison';
-import PowerRankings from '../components/PowerRankings';
+import PowerRankings from '../components/PowerRankings.js';
 
 const formatNumber = (n) => {
   if (!n) return '—';

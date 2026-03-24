@@ -1,3 +1,4 @@
+
 // Static conflict data — replace with API calls when backend is ready
 export const conflictsData = [
   {
@@ -249,14 +250,14 @@ export const conflictsData = [
   },
   {
     id: "india-pakistan",
-    country: "Pakistan / Kashmir",
+    country: "Pakistan",
     countryCode: "PK",
     coordinates: { lat: 30.3753, lng: 69.3451 },
     conflictType: "interstate war",
     severity: 6.5,
     status: "simmering",
     startDate: "1947-10-22",
-    parties: ["Pakistan", "India", "Taliban (TTP)"],
+    parties: ["Pakistan", "India", "Taliban (TTP)","Balochistan Liberation Army (BLA)"],
     proxyActors: ["China (Pakistan ally)", "USA (India ties)"],
     activeDeaths: 12000,
     civilianCasualties: 3000,
@@ -276,21 +277,59 @@ export const conflictsData = [
       { country: "India", rank: 4, score: 0.1007 },
       { country: "Pakistan", rank: 9, score: 0.1711 }
     ]
-  }
+  },
+  {
+  id: "iran-israel-2026",
+  country: "Iran",
+  countryCode: "IR",
+  coordinates: { lat: 32.4279, lng: 53.6880 },
+  conflictType: "interstate war / regional conflict",
+  severity: 9.2,
+  status: "active",
+  startDate: "2026-02-28",
+  parties: ["Iran", "Israel", "United States", "Hezbollah", "Houthi Movement"],
+  proxyActors: ["UAE (US base host)", "Qatar (US base host)", "Bahrain (US base host)", "Lebanon (Hezbollah base)"],
+  activeDeaths: 40000,
+  civilianCasualties: 18000,
+  displaced: 2500000,
+  summary: "The 2026 Iran war began after coordinated US-Israeli airstrikes on Iranian nuclear facilities, military infrastructure, and leadership. Iran retaliated with ballistic missile and drone attacks on Israeli cities, US military bases across the Gulf, and regional energy infrastructure. Tehran also disrupted and partially closed the Strait of Hormuz, targeting shipping and threatening global oil supply. The conflict has expanded regionally with Hezbollah attacks from Lebanon and threats against Gulf states hosting US forces, raising fears of a wider Middle East war and global energy crisis.",
+  territory: "Iran, Israel, Persian Gulf, Strait of Hormuz, Lebanon, Gulf States",
+  keyEvents: [
+    { date: "2026-02-28", event: "US and Israel launch coordinated strikes on Iranian nuclear and military targets (start of war)" },
+    { date: "2026-03-02", event: "Iran launches missile and drone attacks on Israel and US bases in Gulf countries" },
+    { date: "2026-03-07", event: "Strikes reported on Iranian infrastructure including Qeshm Island amid escalation" },
+    { date: "2026-03-13", event: "US conducts major airstrike on Kharg Island, targeting Iranian military assets" },
+    { date: "2026-03-15", event: "Iran deploys mines and disrupts shipping in Strait of Hormuz, reducing global oil flow" },
+    { date: "2026-03-19", event: "US begins military campaign to reopen Strait of Hormuz, targeting Iranian naval assets" },
+    { date: "2026-03-22", event: "US issues ultimatum to Iran to reopen Hormuz; Iran threatens full closure and wider retaliation" },
+    { date: "2026-03-24", event: "Ongoing missile exchanges, energy infrastructure attacks, and global oil supply disruption continue" }
+  ],
+  military: {
+    iran: { activePersonnel: 610000, tanks: 1996, aircraft: 541, navy: 398, militaryBudgetUSD: 25000000000, nuclearWarheads: 0, gwpIndex: 0.2269 },
+    israel: { activePersonnel: 169500, tanks: 2200, aircraft: 612, navy: 67, militaryBudgetUSD: 24500000000, nuclearWarheads: 90, gwpIndex: 0.2757 },
+    usa: { activePersonnel: 1390000, tanks: 4657, aircraft: 13200, navy: 490, militaryBudgetUSD: 877000000000, nuclearWarheads: 5244, gwpIndex: 0.0712 }
+  },
+  globalPowerRankings: [
+    { country: "United States", rank: 1, score: 0.0712 },
+    { country: "Israel", rank: 18, score: 0.2757 },
+    { country: "Iran", rank: 14, score: 0.2269 }
+  ]
+}
 ];
 
 export const powerRankingsData = [
-  { rank: 1, country: "United States", countryCode: "US", score: 0.0453, activePersonnel: 1328000, tanks: 5500, aircraft: 13300, navy: 920, budget: 886000000000, nuclearWarheads: 5550 },
-  { rank: 2, country: "Russia", countryCode: "RU", score: 0.0501, activePersonnel: 1320000, tanks: 12500, aircraft: 4173, navy: 598, budget: 109000000000, nuclearWarheads: 5889 },
-  { rank: 3, country: "China", countryCode: "CN", score: 0.0706, activePersonnel: 2185000, tanks: 5000, aircraft: 3304, navy: 730, budget: 225000000000, nuclearWarheads: 500 },
-  { rank: 4, country: "India", countryCode: "IN", score: 0.1007, activePersonnel: 1455550, tanks: 4614, aircraft: 2296, navy: 293, budget: 81400000000, nuclearWarheads: 172 },
-  { rank: 5, country: "South Korea", countryCode: "KR", score: 0.1416, activePersonnel: 555000, tanks: 2130, aircraft: 1595, navy: 234, budget: 46400000000, nuclearWarheads: 0 },
-  { rank: 6, country: "United Kingdom", countryCode: "GB", score: 0.1443, activePersonnel: 194000, tanks: 227, aircraft: 693, navy: 76, budget: 72800000000, nuclearWarheads: 225 },
-  { rank: 7, country: "Japan", countryCode: "JP", score: 0.1601, activePersonnel: 247000, tanks: 1004, aircraft: 1449, navy: 155, budget: 49000000000, nuclearWarheads: 0 },
-  { rank: 8, country: "Turkey", countryCode: "TR", score: 0.1648, activePersonnel: 380000, tanks: 2889, aircraft: 1077, navy: 194, budget: 39400000000, nuclearWarheads: 0 },
-  { rank: 9, country: "Pakistan", countryCode: "PK", score: 0.1711, activePersonnel: 654000, tanks: 2627, aircraft: 1387, navy: 121, budget: 10300000000, nuclearWarheads: 170 },
-  { rank: 10, country: "Brazil", countryCode: "BR", score: 0.1765, activePersonnel: 366500, tanks: 469, aircraft: 729, navy: 110, budget: 19200000000, nuclearWarheads: 0 }
+  { rank: 1, country: "United States", countryCode: "US", score: 0.0741, activePersonnel: 1328000, tanks: 5500, aircraft: 13300, navy: 920, budget: "886B", nuclearWarheads: 5550 },
+  { rank: 2, country: "Russia", countryCode: "RU", score: 0.0791, activePersonnel: 1320000, tanks: 12500, aircraft: 4173, navy: 598, budget: "109B", nuclearWarheads: 5889 },
+  { rank: 3, country: "China", countryCode: "CN", score: 0.0919, activePersonnel: 2185000, tanks: 5000, aircraft: 3304, navy: 730, budget: "225B", nuclearWarheads: 500 },
+  { rank: 4, country: "India", countryCode: "IN", score: 0.1346, activePersonnel: 1455550, tanks: 4614, aircraft: 2296, navy: 293, budget: "81.4B", nuclearWarheads: 172 },
+  { rank: 5, country: "South Korea", countryCode: "KR", score: 0.1642, activePersonnel: 555000, tanks: 2130, aircraft: 1595, navy: 234, budget: "46.4B", nuclearWarheads: 0 },
+  { rank: 6, country: "France", countryCode: "FR", score: 0.1798, activePersonnel: 205000, tanks: 222, aircraft: 1055, navy: 180, budget: "55B", nuclearWarheads: 290 },
+  { rank: 7, country: "Japan", countryCode: "JP", score: 0.1876, activePersonnel: 247000, tanks: 1004, aircraft: 1449, navy: 155, budget: "49B", nuclearWarheads: 0 },
+  { rank: 8, country: "United Kingdom", countryCode: "GB", score: 0.1881, activePersonnel: 194000, tanks: 227, aircraft: 693, navy: 76, budget: "72.8B", nuclearWarheads: 225 },
+  { rank: 9, country: "Turkey", countryCode: "TR", score: 0.1975, activePersonnel: 380000, tanks: 2889, aircraft: 1077, navy: 194, budget: "39.4B", nuclearWarheads: 0 },
+  { rank: 10, country: "Italy", countryCode: "IT", score: 0.2211, activePersonnel: 165000, tanks: 200, aircraft: 800, navy: 143, budget: "32B", nuclearWarheads: 0 }
 ];
+
 
 export const conflictTypeColors = {
   "civil war": "#ff6b35",

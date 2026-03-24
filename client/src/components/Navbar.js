@@ -88,7 +88,17 @@ export default function Navbar() {
     return () => clearInterval(timer);
   }, []);
 
-  const formatTime = (d) => d.toUTCString().replace(' GMT', ' UTC');
+  const formatTime = (d) =>
+  d.toLocaleString("en-IN", {
+    timeZone: "Asia/Kolkata",
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true,
+  }) + " IST";
 
   return (
     <nav style={styles.nav}>

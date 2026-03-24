@@ -1,0 +1,872 @@
+[
+  {
+    "RANK": "1",
+    "GFP SCORE": "0.0741",
+    "COUNTRY": "United States",
+    "data4": "USA"
+  },
+  {
+    "RANK": "2",
+    "GFP SCORE": "0.0791",
+    "COUNTRY": "Russia",
+    "data4": "RUS"
+  },
+  {
+    "RANK": "3",
+    "GFP SCORE": "0.0919",
+    "COUNTRY": "China",
+    "data4": "CHN"
+  },
+  {
+    "RANK": "4",
+    "GFP SCORE": "0.1346",
+    "COUNTRY": "India",
+    "data4": "IND"
+  },
+  {
+    "RANK": "5",
+    "GFP SCORE": "0.1642",
+    "COUNTRY": "South Korea",
+    "data4": "SKO"
+  },
+  {
+    "RANK": "6",
+    "GFP SCORE": "0.1798",
+    "COUNTRY": "France",
+    "data4": "FRA"
+  },
+  {
+    "RANK": "7",
+    "GFP SCORE": "0.1876",
+    "COUNTRY": "Japan",
+    "data4": "JPN"
+  },
+  {
+    "RANK": "8",
+    "GFP SCORE": "0.1881",
+    "COUNTRY": "United Kingdom",
+    "data4": "UKD"
+  },
+  {
+    "RANK": "9",
+    "GFP SCORE": "0.1975",
+    "COUNTRY": "Turkiye",
+    "data4": "TKY"
+  },
+  {
+    "RANK": "10",
+    "GFP SCORE": "0.2211",
+    "COUNTRY": "Italy",
+    "data4": "ITA"
+  },
+  {
+    "RANK": "11",
+    "GFP SCORE": "0.2374",
+    "COUNTRY": "Brazil",
+    "data4": "BRA"
+  },
+  {
+    "RANK": "12",
+    "GFP SCORE": "0.2463",
+    "COUNTRY": "Germany",
+    "data4": "GER"
+  },
+  {
+    "RANK": "13",
+    "GFP SCORE": "0.2582",
+    "COUNTRY": "Indonesia",
+    "data4": "INO"
+  },
+  {
+    "RANK": "14",
+    "GFP SCORE": "0.2626",
+    "COUNTRY": "Pakistan",
+    "data4": "PAK"
+  },
+  {
+    "RANK": "15",
+    "GFP SCORE": "0.2707",
+    "COUNTRY": "Israel",
+    "data4": "ISR"
+  },
+  {
+    "RANK": "16",
+    "GFP SCORE": "0.3199",
+    "COUNTRY": "Iran",
+    "data4": "IRN"
+  },
+  {
+    "RANK": "17",
+    "GFP SCORE": "0.3208",
+    "COUNTRY": "Australia",
+    "data4": "AUS"
+  },
+  {
+    "RANK": "18",
+    "GFP SCORE": "0.3247",
+    "COUNTRY": "Spain",
+    "data4": "SPN"
+  },
+  {
+    "RANK": "19",
+    "GFP SCORE": "0.3651",
+    "COUNTRY": "Egypt",
+    "data4": "EGY"
+  },
+  {
+    "RANK": "20",
+    "GFP SCORE": "0.3691",
+    "COUNTRY": "Ukraine",
+    "data4": "UKR"
+  },
+  {
+    "RANK": "21",
+    "GFP SCORE": "0.3891",
+    "COUNTRY": "Poland",
+    "data4": "POL"
+  },
+  {
+    "RANK": "22",
+    "GFP SCORE": "0.3927",
+    "COUNTRY": "Taiwan",
+    "data4": "TWN"
+  },
+  {
+    "RANK": "23",
+    "GFP SCORE": "0.4066",
+    "COUNTRY": "Vietnam",
+    "data4": "VET"
+  },
+  {
+    "RANK": "24",
+    "GFP SCORE": "0.4458",
+    "COUNTRY": "Thailand",
+    "data4": "THL"
+  },
+  {
+    "RANK": "25",
+    "GFP SCORE": "0.4473",
+    "COUNTRY": "Saudi Arabia",
+    "data4": "SAR"
+  },
+  {
+    "RANK": "26",
+    "GFP SCORE": "0.4834",
+    "COUNTRY": "Sweden",
+    "data4": "SWE"
+  },
+  {
+    "RANK": "27",
+    "GFP SCORE": "0.4849",
+    "COUNTRY": "Algeria",
+    "data4": "ALG"
+  },
+  {
+    "RANK": "28",
+    "GFP SCORE": "0.5269",
+    "COUNTRY": "Canada",
+    "data4": "CAN"
+  },
+  {
+    "RANK": "29",
+    "GFP SCORE": "0.5272",
+    "COUNTRY": "Singapore",
+    "data4": "SNG"
+  },
+  {
+    "RANK": "30",
+    "GFP SCORE": "0.5484",
+    "COUNTRY": "Greece",
+    "data4": "GRE"
+  },
+  {
+    "RANK": "31",
+    "GFP SCORE": "0.5933",
+    "COUNTRY": "North Korea",
+    "data4": "NKO"
+  },
+  {
+    "RANK": "32",
+    "GFP SCORE": "0.5983",
+    "COUNTRY": "Argentina",
+    "data4": "ARG"
+  },
+  {
+    "RANK": "33",
+    "GFP SCORE": "0.6097",
+    "COUNTRY": "Nigeria",
+    "data4": "NGA"
+  },
+  {
+    "RANK": "34",
+    "GFP SCORE": "0.6142",
+    "COUNTRY": "Netherlands",
+    "data4": "NTH"
+  },
+  {
+    "RANK": "35",
+    "GFP SCORE": "0.6265",
+    "COUNTRY": "Myanmar",
+    "data4": "MYA"
+  },
+  {
+    "RANK": "36",
+    "GFP SCORE": "0.6401",
+    "COUNTRY": "Mexico",
+    "data4": "MEX"
+  },
+  {
+    "RANK": "37",
+    "GFP SCORE": "0.6517",
+    "COUNTRY": "Bangladesh",
+    "data4": "BNG"
+  },
+  {
+    "RANK": "38",
+    "GFP SCORE": "0.6659",
+    "COUNTRY": "Portugal",
+    "data4": "POR"
+  },
+  {
+    "RANK": "39",
+    "GFP SCORE": "0.6679",
+    "COUNTRY": "Norway",
+    "data4": "NOR"
+  },
+  {
+    "RANK": "40",
+    "GFP SCORE": "0.6843",
+    "COUNTRY": "South Africa",
+    "data4": "SAF"
+  },
+  {
+    "RANK": "41",
+    "GFP SCORE": "0.6993",
+    "COUNTRY": "Philippines",
+    "data4": "PHL"
+  },
+  {
+    "RANK": "42",
+    "GFP SCORE": "0.7379",
+    "COUNTRY": "Malaysia",
+    "data4": "MLY"
+  },
+  {
+    "RANK": "43",
+    "GFP SCORE": "0.7551",
+    "COUNTRY": "Colombia",
+    "data4": "COL"
+  },
+  {
+    "RANK": "44",
+    "GFP SCORE": "0.8115",
+    "COUNTRY": "Iraq",
+    "data4": "IRQ"
+  },
+  {
+    "RANK": "45",
+    "GFP SCORE": "0.8198",
+    "COUNTRY": "Denmark",
+    "data4": "DEN"
+  },
+  {
+    "RANK": "46",
+    "GFP SCORE": "0.8396",
+    "COUNTRY": "Switzerland",
+    "data4": "SWZ"
+  },
+  {
+    "RANK": "47",
+    "GFP SCORE": "0.8525",
+    "COUNTRY": "Ethiopia",
+    "data4": "ETH"
+  },
+  {
+    "RANK": "48",
+    "GFP SCORE": "0.8673",
+    "COUNTRY": "Finland",
+    "data4": "FIN"
+  },
+  {
+    "RANK": "49",
+    "GFP SCORE": "0.8704",
+    "COUNTRY": "Chile",
+    "data4": "CHI"
+  },
+  {
+    "RANK": "50",
+    "GFP SCORE": "0.8827",
+    "COUNTRY": "Peru",
+    "data4": "PER"
+  },
+  {
+    "RANK": "51",
+    "GFP SCORE": "0.9106",
+    "COUNTRY": "Venezuela",
+    "data4": "VEN"
+  },
+  {
+    "RANK": "52",
+    "GFP SCORE": "0.9558",
+    "COUNTRY": "Romania",
+    "data4": "ROM"
+  },
+  {
+    "RANK": "53",
+    "GFP SCORE": "0.9908",
+    "COUNTRY": "Uzbekistan",
+    "data4": "UZB"
+  },
+  {
+    "RANK": "54",
+    "GFP SCORE": "1.0188",
+    "COUNTRY": "United Arab Emirates",
+    "data4": "UAE"
+  },
+  {
+    "RANK": "55",
+    "GFP SCORE": "1.0313",
+    "COUNTRY": "Czechia",
+    "data4": "CZC"
+  },
+  {
+    "RANK": "56",
+    "GFP SCORE": "1.0368",
+    "COUNTRY": "Morocco",
+    "data4": "MOR"
+  },
+  {
+    "RANK": "57",
+    "GFP SCORE": "1.0429",
+    "COUNTRY": "Hungary",
+    "data4": "HUN"
+  },
+  {
+    "RANK": "58",
+    "GFP SCORE": "1.0433",
+    "COUNTRY": "Kazakhstan",
+    "data4": "KAZ"
+  },
+  {
+    "RANK": "59",
+    "GFP SCORE": "1.1045",
+    "COUNTRY": "Angola",
+    "data4": "ANG"
+  },
+  {
+    "RANK": "60",
+    "GFP SCORE": "1.1991",
+    "COUNTRY": "Azerbaijan",
+    "data4": "AZR"
+  },
+  {
+    "RANK": "61",
+    "GFP SCORE": "1.2201",
+    "COUNTRY": "Belgium",
+    "data4": "BEL"
+  },
+  {
+    "RANK": "62",
+    "GFP SCORE": "1.2522",
+    "COUNTRY": "Bulgaria",
+    "data4": "BUL"
+  },
+  {
+    "RANK": "63",
+    "GFP SCORE": "1.2938",
+    "COUNTRY": "Serbia",
+    "data4": "SRB"
+  },
+  {
+    "RANK": "64",
+    "GFP SCORE": "1.3051",
+    "COUNTRY": "Democratic Republic of the Congo",
+    "data4": "DRC"
+  },
+  {
+    "RANK": "65",
+    "GFP SCORE": "1.3345",
+    "COUNTRY": "Cuba",
+    "data4": "CUB"
+  },
+  {
+    "RANK": "66",
+    "GFP SCORE": "1.3563",
+    "COUNTRY": "Sudan",
+    "data4": "SDN"
+  },
+  {
+    "RANK": "67",
+    "GFP SCORE": "1.3759",
+    "COUNTRY": "Austria",
+    "data4": "AST"
+  },
+  {
+    "RANK": "68",
+    "GFP SCORE": "1.3822",
+    "COUNTRY": "Sri Lanka",
+    "data4": "SRL"
+  },
+  {
+    "RANK": "69",
+    "GFP SCORE": "1.3911",
+    "COUNTRY": "Slovakia",
+    "data4": "SLK"
+  },
+  {
+    "RANK": "70",
+    "GFP SCORE": "1.4072",
+    "COUNTRY": "Belarus",
+    "data4": "BLR"
+  },
+  {
+    "RANK": "71",
+    "GFP SCORE": "1.4096",
+    "COUNTRY": "Qatar",
+    "data4": "QTR"
+  },
+  {
+    "RANK": "72",
+    "GFP SCORE": "1.4479",
+    "COUNTRY": "Ecuador",
+    "data4": "ECU"
+  },
+  {
+    "RANK": "73",
+    "GFP SCORE": "1.5432",
+    "COUNTRY": "Croatia",
+    "data4": "CRO"
+  },
+  {
+    "RANK": "74",
+    "GFP SCORE": "1.5581",
+    "COUNTRY": "Jordan",
+    "data4": "JOR"
+  },
+  {
+    "RANK": "75",
+    "GFP SCORE": "1.6731",
+    "COUNTRY": "Bahrain",
+    "data4": "BAH"
+  },
+  {
+    "RANK": "76",
+    "GFP SCORE": "1.7161",
+    "COUNTRY": "Kuwait",
+    "data4": "KUW"
+  },
+  {
+    "RANK": "77",
+    "GFP SCORE": "1.7258",
+    "COUNTRY": "Albania",
+    "data4": "ALB"
+  },
+  {
+    "RANK": "78",
+    "GFP SCORE": "1.7459",
+    "COUNTRY": "Turkmenistan",
+    "data4": "TKM"
+  },
+  {
+    "RANK": "79",
+    "GFP SCORE": "1.7823",
+    "COUNTRY": "Tunisia",
+    "data4": "TUN"
+  },
+  {
+    "RANK": "80",
+    "GFP SCORE": "1.7872",
+    "COUNTRY": "Libya",
+    "data4": "LBY"
+  },
+  {
+    "RANK": "81",
+    "GFP SCORE": "1.7974",
+    "COUNTRY": "Paraguay",
+    "data4": "PAR"
+  },
+  {
+    "RANK": "82",
+    "GFP SCORE": "1.8301",
+    "COUNTRY": "Bolivia",
+    "data4": "BOL"
+  },
+  {
+    "RANK": "83",
+    "GFP SCORE": "1.8434",
+    "COUNTRY": "Cambodia",
+    "data4": "CMB"
+  },
+  {
+    "RANK": "84",
+    "GFP SCORE": "1.8588",
+    "COUNTRY": "Kenya",
+    "data4": "KEN"
+  },
+  {
+    "RANK": "85",
+    "GFP SCORE": "1.8594",
+    "COUNTRY": "Chad",
+    "data4": "CHD"
+  },
+  {
+    "RANK": "86",
+    "GFP SCORE": "1.8823",
+    "COUNTRY": "Oman",
+    "data4": "OMA"
+  },
+  {
+    "RANK": "87",
+    "GFP SCORE": "1.8861",
+    "COUNTRY": "Syria",
+    "data4": "SYR"
+  },
+  {
+    "RANK": "88",
+    "GFP SCORE": "1.8949",
+    "COUNTRY": "Lithuania",
+    "data4": "LIT"
+  },
+  {
+    "RANK": "89",
+    "GFP SCORE": "1.9111",
+    "COUNTRY": "Tanzania",
+    "data4": "TNZ"
+  },
+  {
+    "RANK": "90",
+    "GFP SCORE": "1.9258",
+    "COUNTRY": "New Zealand",
+    "data4": "NWZ"
+  },
+  {
+    "RANK": "91",
+    "GFP SCORE": "1.9404",
+    "COUNTRY": "Slovenia",
+    "data4": "SLN"
+  },
+  {
+    "RANK": "92",
+    "GFP SCORE": "1.9769",
+    "COUNTRY": "Mozambique",
+    "data4": "MOZ"
+  },
+  {
+    "RANK": "93",
+    "GFP SCORE": "1.9987",
+    "COUNTRY": "Mongolia",
+    "data4": "MGL"
+  },
+  {
+    "RANK": "94",
+    "GFP SCORE": "2.0661",
+    "COUNTRY": "Ireland",
+    "data4": "IRE"
+  },
+  {
+    "RANK": "95",
+    "GFP SCORE": "2.0779",
+    "COUNTRY": "Georgia",
+    "data4": "GEO"
+  },
+  {
+    "RANK": "96",
+    "GFP SCORE": "2.1277",
+    "COUNTRY": "Guatemala",
+    "data4": "GUA"
+  },
+  {
+    "RANK": "97",
+    "GFP SCORE": "2.1537",
+    "COUNTRY": "Uruguay",
+    "data4": "URU"
+  },
+  {
+    "RANK": "98",
+    "GFP SCORE": "2.1617",
+    "COUNTRY": "Yemen",
+    "data4": "YEM"
+  },
+  {
+    "RANK": "99",
+    "GFP SCORE": "2.1689",
+    "COUNTRY": "Cameroon",
+    "data4": "CAM"
+  },
+  {
+    "RANK": "100",
+    "GFP SCORE": "2.1749",
+    "COUNTRY": "Tajikistan",
+    "data4": "TJK"
+  },
+  {
+    "RANK": "101",
+    "GFP SCORE": "2.2016",
+    "COUNTRY": "Armenia",
+    "data4": "ARM"
+  },
+  {
+    "RANK": "102",
+    "GFP SCORE": "2.2316",
+    "COUNTRY": "Latvia",
+    "data4": "LAT"
+  },
+  {
+    "RANK": "103",
+    "GFP SCORE": "2.2575",
+    "COUNTRY": "Honduras",
+    "data4": "HON"
+  },
+  {
+    "RANK": "104",
+    "GFP SCORE": "2.2598",
+    "COUNTRY": "Mali",
+    "data4": "MAL"
+  },
+  {
+    "RANK": "105",
+    "GFP SCORE": "2.2801",
+    "COUNTRY": "Zimbabwe",
+    "data4": "ZIM"
+  },
+  {
+    "RANK": "106",
+    "GFP SCORE": "2.3201",
+    "COUNTRY": "Estonia",
+    "data4": "EST"
+  },
+  {
+    "RANK": "107",
+    "GFP SCORE": "2.3252",
+    "COUNTRY": "Uganda",
+    "data4": "UGA"
+  },
+  {
+    "RANK": "108",
+    "GFP SCORE": "2.3884",
+    "COUNTRY": "Ivory Coast",
+    "data4": "IVC"
+  },
+  {
+    "RANK": "109",
+    "GFP SCORE": "2.3969",
+    "COUNTRY": "Kyrgyzstan",
+    "data4": "KYR"
+  },
+  {
+    "RANK": "110",
+    "GFP SCORE": "2.4429",
+    "COUNTRY": "Luxembourg",
+    "data4": "LUX"
+  },
+  {
+    "RANK": "111",
+    "GFP SCORE": "2.4461",
+    "COUNTRY": "Zambia",
+    "data4": "ZAM"
+  },
+  {
+    "RANK": "112",
+    "GFP SCORE": "2.4566",
+    "COUNTRY": "Ghana",
+    "data4": "GHA"
+  },
+  {
+    "RANK": "113",
+    "GFP SCORE": "2.4645",
+    "COUNTRY": "South Sudan",
+    "data4": "SSD"
+  },
+  {
+    "RANK": "114",
+    "GFP SCORE": "2.4956",
+    "COUNTRY": "North Macedonia",
+    "data4": "MAC"
+  },
+  {
+    "RANK": "115",
+    "GFP SCORE": "2.5853",
+    "COUNTRY": "Dominican Republic",
+    "data4": "DOM"
+  },
+  {
+    "RANK": "116",
+    "GFP SCORE": "2.5894",
+    "COUNTRY": "Nicaragua",
+    "data4": "NIC"
+  },
+  {
+    "RANK": "117",
+    "GFP SCORE": "2.6259",
+    "COUNTRY": "Republic of the Congo",
+    "data4": "ROC"
+  },
+  {
+    "RANK": "118",
+    "GFP SCORE": "2.6521",
+    "COUNTRY": "Lebanon",
+    "data4": "LEB"
+  },
+  {
+    "RANK": "119",
+    "GFP SCORE": "2.6841",
+    "COUNTRY": "Eritrea",
+    "data4": "ERI"
+  },
+  {
+    "RANK": "120",
+    "GFP SCORE": "2.6867",
+    "COUNTRY": "Niger",
+    "data4": "NGR"
+  },
+  {
+    "RANK": "121",
+    "GFP SCORE": "2.7342",
+    "COUNTRY": "Afghanistan",
+    "data4": "AFG"
+  },
+  {
+    "RANK": "122",
+    "GFP SCORE": "2.7414",
+    "COUNTRY": "Namibia",
+    "data4": "NAM"
+  },
+  {
+    "RANK": "123",
+    "GFP SCORE": "2.7919",
+    "COUNTRY": "Mauritania",
+    "data4": "MAU"
+  },
+  {
+    "RANK": "124",
+    "GFP SCORE": "2.8037",
+    "COUNTRY": "Nepal",
+    "data4": "NEP"
+  },
+  {
+    "RANK": "125",
+    "GFP SCORE": "2.8672",
+    "COUNTRY": "Laos",
+    "data4": "LAO"
+  },
+  {
+    "RANK": "126",
+    "GFP SCORE": "2.8925",
+    "COUNTRY": "Senegal",
+    "data4": "SEN"
+  },
+  {
+    "RANK": "127",
+    "GFP SCORE": "2.9213",
+    "COUNTRY": "Burkina Faso",
+    "data4": "BKF"
+  },
+  {
+    "RANK": "128",
+    "GFP SCORE": "2.9782",
+    "COUNTRY": "Montenegro",
+    "data4": "MTN"
+  },
+  {
+    "RANK": "129",
+    "GFP SCORE": "2.9973",
+    "COUNTRY": "El Salvador",
+    "data4": "ESL"
+  },
+  {
+    "RANK": "130",
+    "GFP SCORE": "2.9993",
+    "COUNTRY": "Botswana",
+    "data4": "BOT"
+  },
+  {
+    "RANK": "131",
+    "GFP SCORE": "3.0381",
+    "COUNTRY": "Madagascar",
+    "data4": "MAD"
+  },
+  {
+    "RANK": "132",
+    "GFP SCORE": "3.0432",
+    "COUNTRY": "Gabon",
+    "data4": "GAB"
+  },
+  {
+    "RANK": "133",
+    "GFP SCORE": "3.1291",
+    "COUNTRY": "Bosnia and Herzegovina",
+    "data4": "BOS"
+  },
+  {
+    "RANK": "134",
+    "GFP SCORE": "3.4013",
+    "COUNTRY": "Iceland",
+    "data4": "ICE"
+  },
+  {
+    "RANK": "135",
+    "GFP SCORE": "3.5011",
+    "COUNTRY": "Panama",
+    "data4": "PAN"
+  },
+  {
+    "RANK": "136",
+    "GFP SCORE": "3.6225",
+    "COUNTRY": "Moldova",
+    "data4": "MOL"
+  },
+  {
+    "RANK": "137",
+    "GFP SCORE": "3.7393",
+    "COUNTRY": "Somalia",
+    "data4": "SOM"
+  },
+  {
+    "RANK": "138",
+    "GFP SCORE": "3.8963",
+    "COUNTRY": "Benin",
+    "data4": "BEN"
+  },
+  {
+    "RANK": "139",
+    "GFP SCORE": "3.8041",
+    "COUNTRY": "Kosovo",
+    "data4": "KOS"
+  },
+  {
+    "RANK": "140",
+    "GFP SCORE": "3.9201",
+    "COUNTRY": "Sierra Leone",
+    "data4": "SLE"
+  },
+  {
+    "RANK": "141",
+    "GFP SCORE": "3.9275",
+    "COUNTRY": "Liberia",
+    "data4": "LIB"
+  },
+  {
+    "RANK": "142",
+    "GFP SCORE": "4.0538",
+    "COUNTRY": "Suriname",
+    "data4": "SRN"
+  },
+  {
+    "RANK": "143",
+    "GFP SCORE": "4.2381",
+    "COUNTRY": "Central African Republic",
+    "data4": "CAR"
+  },
+  {
+    "RANK": "144",
+    "GFP SCORE": "4.3602",
+    "COUNTRY": "Beliz",
+    "data4": "BLZ"
+  },
+  {
+    "RANK": "145",
+    "GFP SCORE": "5.7991",
+    "COUNTRY": "Bhutan",
+    "data4": "BUT"
+  }
+]
