@@ -85,9 +85,9 @@ export default function Globe({ conflicts, onHover, onSelect, selectedId }) {
     // Stars
     const starGeo = new THREE.BufferGeometry();
     const starCount = 2000;
-    const positions = new Float32Array(starCount * 3);
+    const positions = new Float32Array(starCount * 9);
     for (let i = 0; i < starCount * 3; i++) {
-      positions[i] = (Math.random() - 0.5) * 200;
+      positions[i] = (Math.random() - 0.5) * 400;
     }
     starGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
     const starMat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.08, transparent: true, opacity: 0.6 });
@@ -166,8 +166,10 @@ export default function Globe({ conflicts, onHover, onSelect, selectedId }) {
     drawCountries(ctx);
 
     // Lights
-    scene.add(new THREE.AmbientLight(0x223366, 1.5));
+    scene.add(new THREE.AmbientLight(0x223366, 2.5));
     const dirLight = new THREE.DirectionalLight(0x4488ff, 2);
+    // const fog = new THREE.Fog(white , 3)
+    // scene.add(upperlight);
     dirLight.position.set(5, 3, 5);
     scene.add(dirLight);
     const rimLight = new THREE.DirectionalLight(0x112244, 1);
