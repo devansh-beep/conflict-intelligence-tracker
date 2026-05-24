@@ -5,40 +5,42 @@ import ConflictCard from '../components/ConflictCard';
 import StatsBar from '../components/StatsBar';
 import { conflictsData, conflictTypeColors } from '../data/conflictsData';
 import { useNavigate } from 'react-router-dom';
-
+import ConflictMap from '../components/ConflictMap';
+ 
 const FILTER_TYPES = ['all', 'civil war', 'proxy war', 'interstate war'];
-
+ 
 export default function HomePage() {
   const [selectedConflict, setSelectedConflict] = useState(null);
   const [hoveredConflict, setHoveredConflict] = useState(null);
   const [filter, setFilter] = useState('all');
   const [search, setSearch] = useState('');
+  const [view, setView] = useState('globe');
   const navigate = useNavigate();
-
+ 
   const filteredConflicts = useMemo(() => {
     return conflictsData
       .filter(c => filter === 'all' || c.conflictType === filter)
       .filter(c => !search || c.country.toLowerCase().includes(search.toLowerCase()))
       .sort((a, b) => b.severity - a.severity);
   }, [filter, search]);
-
+ 
   const handleSelect = (conflict) => {
     setSelectedConflict(conflict);
     setTimeout(() => navigate(`/conflict/${conflict.id}`), 150);
   };
-
+ 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', background: 'var(--bg-primary)', overflow: 'hidden' }}>
       <Navbar />
-
+ 
       {/* Stats bar */}
       <div style={{ marginTop: '64px' }}>
         <StatsBar conflicts={conflictsData} />
       </div>
-
+ 
       {/* Main layout */}
       <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
-
+ 
         {/* Sidebar */}
         <div style={{
           width: '340px',
@@ -99,14 +101,14 @@ export default function HomePage() {
               })}
             </div>
           </div>
-
+ 
           {/* Conflict count */}
           <div style={{ padding: '8px 16px', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
             <span style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '0.6rem', color: '#4a5568', letterSpacing: '0.1em' }}>
               {filteredConflicts.length} CONFLICT{filteredConflicts.length !== 1 ? 'S' : ''} TRACKED
             </span>
           </div>
-
+ 
           {/* Conflict list */}
           <div style={{ flex: 1, overflowY: 'auto', padding: '12px' }}>
             {filteredConflicts.map(conflict => (
@@ -119,63 +121,112 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-
-        {/* Globe */}
-        <div style={{ flex: 1, position: 'relative', overflow: 'hidden', background: 'radial-gradient(ellipse at center, #080d20 0%, #050810 70%)' }}>
-          {/* Scanline overlay */}
-          <div style={{
-            position: 'absolute',
-            top: 0, left: 0, right: 0, bottom: 0,
-            background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px)',
-            pointerEvents: 'none',
-            zIndex: 10,
-          }} />
-
-          {/* Corner decorations */}
-          {['topleft', 'topright', 'bottomleft', 'bottomright'].map(pos => (
-            <div key={pos} style={{
-              position: 'absolute',
-              width: '40px',
-              height: '40px',
-              borderTop: pos.includes('top') ? '2px solid rgba(239,68,68,0.4)' : 'none',
-              borderBottom: pos.includes('bottom') ? '2px solid rgba(239,68,68,0.4)' : 'none',
-              borderLeft: pos.includes('left') ? '2px solid rgba(239,68,68,0.4)' : 'none',
-              borderRight: pos.includes('right') ? '2px solid rgba(239,68,68,0.4)' : 'none',
-              top: pos.includes('top') ? '16px' : 'auto',
-              bottom: pos.includes('bottom') ? '16px' : 'auto',
-              left: pos.includes('left') ? '16px' : 'auto',
-              right: pos.includes('right') ? '16px' : 'auto',
-              zIndex: 11,
-              pointerEvents: 'none',
-            }} />
-          ))}
-
-          {/* Title overlay */}
-          <div style={{
-            position: 'absolute',
-            top: '24px',
-            left: '50%',
-            transform: 'translateX(-50%)',
-            textAlign: 'center',
-            zIndex: 11,
-            pointerEvents: 'none',
-          }}>
-            <div style={{ fontFamily: "'Orbitron', monospace", fontSize: '0.65rem', fontWeight: 600, letterSpacing: '0.3em', color: 'rgba(239,68,68,0.6)', marginBottom: '4px' }}>
-              GLOBAL CONFLICT INTELLIGENCE
-            </div>
-            <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '0.55rem', color: 'rgba(255,255,255,0.2)', letterSpacing: '0.1em' }}>
-              INTERACTIVE 3D THEATRE OF OPERATIONS
-            </div>
+ 
+        {/* Globe / Map Area */}
+        <div style={{ flex: 1, position: 'relative', overflow: 'hidden', background: 'radial-gradient(ellipse at center, #0a1628 0%, #050810 100%)' }}>
+ 
+          {/* View Toggle Buttons */}
+          <div style={{ position: 'absolute', top: 16, right: 16, zIndex: 1000, display: 'flex', gap: '6px' }}>
+            <button
+              onClick={() => setView('globe')}
+              style={{
+                padding: '6px 14px',
+                background: view === 'globe' ? 'rgba(239,68,68,0.2)' : 'transparent',
+                border: '1px solid rgba(239,68,68,0.4)',
+                borderRadius: '4px',
+                color: view === 'globe' ? '#ef4444' : '#4a5568',
+                fontFamily: "'Share Tech Mono', monospace",
+                fontSize: '0.6rem',
+                cursor: 'pointer',
+                letterSpacing: '0.08em',
+              }}
+            >
+              🌍 3D GLOBE
+            </button>
+            <button
+              onClick={() => setView('map')}
+              style={{
+                padding: '6px 14px',
+                background: view === 'map' ? 'rgba(59,130,246,0.2)' : 'transparent',
+                border: '1px solid rgba(59,130,246,0.4)',
+                borderRadius: '4px',
+                color: view === 'map' ? '#3b82f6' : '#4a5568',
+                fontFamily: "'Share Tech Mono', monospace",
+                fontSize: '0.6rem',
+                cursor: 'pointer',
+                letterSpacing: '0.08em',
+              }}
+            >
+              🗺️ 2D MAP
+            </button>
           </div>
-
-          <Globe
-            conflicts={filteredConflicts}
-            onHover={setHoveredConflict}
-            onSelect={handleSelect}
-            selectedId={selectedConflict?.id}
-          />
+ 
+          {/* Conditional View */}
+          {view === 'map' ? (
+            <ConflictMap
+              conflicts={filteredConflicts}
+              onSelectConflict={setSelectedConflict}
+            />
+          ) : (
+            <>
+              {/* Scanline overlay */}
+              <div style={{
+                position: 'absolute',
+                top: 0, left: 0, right: 0, bottom: 0,
+                background: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px)',
+                pointerEvents: 'none',
+                zIndex: 10,
+              }} />
+ 
+              {/* Corner decorations */}
+              {['topleft', 'topright', 'bottomleft', 'bottomright'].map(pos => (
+                <div key={pos} style={{
+                  position: 'absolute',
+                  width: '40px',
+                  height: '40px',
+                  borderTop: pos.includes('top') ? '2px solid rgba(239,68,68,0.4)' : 'none',
+                  borderBottom: pos.includes('bottom') ? '2px solid rgba(239,68,68,0.4)' : 'none',
+                  borderLeft: pos.includes('left') ? '2px solid rgba(239,68,68,0.4)' : 'none',
+                  borderRight: pos.includes('right') ? '2px solid rgba(239,68,68,0.4)' : 'none',
+                  top: pos.includes('top') ? '16px' : 'auto',
+                  bottom: pos.includes('bottom') ? '16px' : 'auto',
+                  left: pos.includes('left') ? '16px' : 'auto',
+                  right: pos.includes('right') ? '16px' : 'auto',
+                  zIndex: 11,
+                  pointerEvents: 'none',
+                }} />
+              ))}
+ 
+              {/* Title overlay */}
+              <div style={{
+                position: 'absolute',
+                top: '24px',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                textAlign: 'center',
+                zIndex: 11,
+                pointerEvents: 'none',
+              }}>
+                <div style={{ fontFamily: "'Orbitron', monospace", fontSize: '0.65rem', fontWeight: 600, letterSpacing: '0.3em', color: 'rgba(239,68,68,0.6)', marginBottom: '4px' }}>
+                  GLOBAL CONFLICT INTELLIGENCE
+                </div>
+                <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '0.55rem', color: 'rgba(255,255,255,0.2)', letterSpacing: '0.1em' }}>
+                  INTERACTIVE 3D THEATRE OF OPERATIONS
+                </div>
+              </div>
+ 
+              {/* Globe */}
+              <Globe
+                conflicts={filteredConflicts}
+                onHover={setHoveredConflict}
+                onSelect={handleSelect}
+                selectedId={selectedConflict?.id}
+              />
+            </>
+          )}
         </div>
       </div>
     </div>
   );
 }
+ 
