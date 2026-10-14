@@ -314,7 +314,30 @@ export const conflictsData = [
     { country: "Israel", rank: 18, score: 0.2757 },
     { country: "Iran", rank: 14, score: 0.2269 }
   ]
-}
+},
+
+{
+  id: "delhi-jantar-mantar-2026",
+  country: "India",
+  countryCode: "IN",
+  coordinates: { lat: 28.6236, lng: 77.2090 },
+  conflictType: "civil unrest",
+  severity: 4.5,
+  status: "active",
+  startDate: "2026-10-01",
+  parties: ["Citizens for Justice and Peace (CJP)", "Bharatiya Janata Party (BJP)", "Indian National Congress (INC)"],
+  proxyActors: ["Various civil society groups", "Opposition coalitions"],
+  activeDeaths: 0,
+  civilianCasualties: 12,
+  displaced: 0,
+  keyEvents: [
+    { date: "2026-10-01", event: "Protests erupt at Jantar Mantar over civil rights legislation" },
+    { date: "2026-10-05", event: "Police lathi-charge on demonstrators; 12 injured" },
+    { date: "2026-10-10", event: "CJP files petition in Supreme Court challenging police action" }
+  ],
+  military: { governmentForces: "Delhi Police / Central Reserve Police Force", rebelForces: "Peaceful protesters" },
+  globalPowerRankings: []
+},
 ];
 
 export const powerRankingsData = [
@@ -334,12 +357,16 @@ export const powerRankingsData = [
 export const conflictTypeColors = {
   "civil war": "#ff6b35",
   "proxy war": "#a855f7",
-  "interstate war": "#ef4444"
+  "interstate war": "#ef4444",
+  "interstate war / regional conflict": "#ef4444",
+  "civil unrest": "#facc15"   // ← ADD THIS
 };
 
 export const statusColors = {
   active: "#ef4444",
   ceasefire: "#f59e0b",
   simmering: "#f97316",
-  resolved: "#22c55e"
-};
+  resolved: "#22c55e",
+  frozen: "#64748b",       // ← ADD THIS
+  escalating: "#dc2626"    // ← ADD THIS
+}; 

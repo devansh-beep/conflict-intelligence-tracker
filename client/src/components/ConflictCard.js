@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { conflictTypeColors, statusColors } from '../data/conflictsData';
  
-const NEWS_API_KEY = '748c2ad683f34bd9bc96496a37d0314f';
- 
+
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000'; 
 const formatNumber = (n) => {
   if (!n) return '—';
   if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
@@ -81,8 +81,8 @@ function LiveNews({ country }) {
     setOpen(true);
     try {
       const res = await fetch(
-        `https://newsapi.org/v2/everything?q=${encodeURIComponent(country + ' conflict war')}&sortBy=publishedAt&pageSize=3&language=en&apiKey=${NEWS_API_KEY}`
-      );
+  `${BACKEND_URL}/api/news/${encodeURIComponent(country)}`
+); 
       const data = await res.json();
       setNews(data.articles || []);
     } catch {
