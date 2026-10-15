@@ -432,26 +432,200 @@
       { "country": "Pakistan", "rank": 9, "score": 0.1711 }
     ]
   },
-  {
+
+{
   "id": "delhi-jantar-mantar-2026",
   "country": "India",
   "countryCode": "IN",
-  "coordinates": { "lat": 28.6236, "lng": 77.2090 },
+  "coordinates": {
+    "lat": 28.6236,
+    "lng": 77.209
+  },
   "conflictType": "civil unrest",
-  "severity": 4.5,
-  "status": "active",
-  "startDate": "2026-10-01",
-  "parties": ["Citizens for Justice and Peace (CJP)", "Bharatiya Janata Party (BJP)", "Indian National Congress (INC)"],
-  "proxyActors": ["Various civil society groups", "Opposition coalitions"],
-  "activeDeaths": 0,
-  "civilianCasualties": 12,
-  "displaced": 0,
-  "keyEvents": [
-    { "date": "2026-10-01", "event": "Protests erupt at Jantar Mantar over civil rights legislation" },
-    { "date": "2026-10-05", "event": "Police lathi-charge on demonstrators; 12 injured" },
-    { "date": "2026-10-10", "event": "CJP files petition in Supreme Court challenging police action" }
+  "severity": 7.5,
+  "status": "resolved",
+  "startDate": "2026-06-06",
+  "endDate": "2026-07-25",
+  "parties": [
+    "Cockroach Janta Party (CJP)",
+    "All India Students' Association (AISA)",
+    "All India Students' Federation (AISF)",
+    "Students' Federation of India (SFI)",
+    "Students and NEET aspirants",
+    "Government of India",
+    "Delhi Police",
+    "Central Reserve Police Force (CRPF)"
   ],
-  "military": { "governmentForces": "Delhi Police / Central Reserve Police Force", "rebelForces": "Peaceful protesters" },
+  "proxyActors": [
+    "Indian National Congress (INC)",
+    "Opposition coalition leaders",
+    "Civil society organisations",
+    "Student organisations",
+    "Public figures supporting examination reform"
+  ],
+  "activeDeaths": 0,
+  "civilianCasualties": 100,
+  "displaced": 0,
+  "summary": "A youth-led protest movement began at Jantar Mantar, New Delhi, on 6 June 2026, following the NEET-UG paper-leak controversy, related student suicides, alleged CBSE examination irregularities, and longstanding concerns about public examination administration. Led by the Cockroach Janta Party (CJP), the movement demanded Union Education Minister Dharmendra Pradhan's resignation and comprehensive examination reforms. Sit-ins, hunger strikes, nationwide solidarity demonstrations, and the Sansad Chalo march escalated into clashes with police on 20 July. Authorities reported injuries among police personnel, while hospitals and protesters reported injuries among demonstrators. After negotiations, government assurances, and the announcement of examination-related measures, Dharmendra Pradhan resigned on 25 July. CJP subsequently called off the agitation in good faith.",
+  "keyEvents": [
+    {
+      "date": "2026-05-03",
+      "event": "NEET-UG 2026 examination takes place; subsequent paper-leak allegations trigger a national examination-integrity controversy"
+    },
+    {
+      "date": "2026-05-12",
+      "event": "NEET-UG examination is cancelled following allegations of irregularities"
+    },
+    {
+      "date": "2026-05-16",
+      "event": "Abhijeet Dipke launches the Cockroach Janta Party as a satirical online platform that develops into a protest movement"
+    },
+    {
+      "date": "2026-06-06",
+      "event": "First major CJP gathering at Jantar Mantar demands Education Minister Dharmendra Pradhan's resignation and examination reforms"
+    },
+    {
+      "date": "2026-06-07",
+      "event": "CJP begins periodic sit-ins and digital campaigns to build support for accountability in public examinations"
+    },
+    {
+      "date": "2026-06-20",
+      "event": "An extended sit-in begins at Jantar Mantar; organisers appeal to NEET aspirants and other affected students to join"
+    },
+    {
+      "date": "2026-06-28",
+      "event": "Sonam Wangchuk and student activists associated with AISA begin hunger strikes demanding accountability"
+    },
+    {
+      "date": "2026-07-01",
+      "event": "Activists, opposition leaders, civil society representatives, and public figures increasingly express solidarity with protesters"
+    },
+    {
+      "date": "2026-07-18",
+      "event": "Sonam Wangchuk is taken to hospital during his hunger strike; the movement gains further political attention"
+    },
+    {
+      "date": "2026-07-19",
+      "event": "Large crowds assemble ahead of the planned Sansad Chalo march during Parliament's Monsoon Session"
+    },
+    {
+      "date": "2026-07-20",
+      "event": "Sansad Chalo march escalates into clashes; police use baton charges and tear gas, protesters reportedly engage in stone-pelting, and injuries and property damage are reported"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Protesters return to Jantar Mantar after police remove protest infrastructure; opposition leaders protest police action and are detained"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Demonstrations spread to multiple Indian cities; Delhi Metro closes several central stations and additional security forces are deployed"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Prime Minister Narendra Modi announces proposed tough measures against examination paper leaks; negotiations with protest representatives continue"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Sonam Wangchuk ends his hunger strike following government engagement; CJP maintains its demand for Dharmendra Pradhan's resignation"
+    },
+    {
+      "date": "2026-07-25",
+      "event": "Dharmendra Pradhan resigns as Education Minister amid the continuing agitation; CJP announces that it is calling off the protest in good faith following talks and assurances"
+    },
+    {
+      "date": "2026-08-02",
+      "event": "The President clears the Public Examinations (Prevention of Unfair Means) Amendment Act, 2026, according to the article's cited aftermath reporting"
+    }
+  ],
+  "military": {
+    "governmentForces": "Delhi Police / Central Reserve Police Force (CRPF) / Rapid Action Force (RAF)",
+    "rebelForces": "Civilian protesters, students, and protest organisers"
+  },
+  "globalPowerRankings": []
+},
+
+{
+  "id": "delhi-anti-cec-2026",
+  "country": "India",
+  "countryCode": "IN",
+  "coordinates": {
+    "lat": 28.6236,
+    "lng": 77.209
+  },
+  "conflictType": "civil unrest / electoral dispute",
+  "severity": 7.5,
+  "status": "active",
+  "startDate": "2026-09-24",
+  "parties": [
+    "Cockroach Janta Party (CJP)",
+    "All India Students' Association (AISA)",
+    "Indian National Congress (INC)",
+    "INDIA opposition bloc",
+    "Left parties",
+    "Bharatiya Janata Party (BJP)",
+    "Election Commission of India",
+    "Delhi Police"
+  ],
+  "proxyActors": [
+    "Student organisations",
+    "Civil society groups",
+    "Opposition coalition leaders",
+    "Journalists and civil liberties advocates"
+  ],
+  "activeDeaths": 0,
+  "civilianCasualties": null,
+  "displaced": 0,
+  "summary": "A renewed protest movement emerged in September 2026, led by the Cockroach Janta Party and joined by student organisations and opposition parties. Demonstrators demand Chief Election Commissioner Gyanesh Kumar's resignation and changes to the Special Intensive Revision (SIR) of electoral rolls. Protesters allege that the revision process risks excluding eligible voters and undermining electoral fairness. The Election Commission maintains that the exercise is intended to update electoral rolls and that eligible voters can seek re-enrolment. On 10 October, a major mobilisation in Delhi was met with extensive police restrictions and mass detentions. Opposition parties subsequently marched to the Supreme Court and challenged the electoral-roll revisions and the handling of protests. On 14 October, CJP leaders Ashutosh Ranka and Saurav Das were reported to have been placed in five-day judicial custody. The CEC resignation demand remains unresolved.",
+  "keyEvents": [
+    {
+      "date": "2026-09-24",
+      "event": "CJP announces a renewed campaign demanding Chief Election Commissioner Gyanesh Kumar's resignation over alleged electoral-roll irregularities"
+    },
+    {
+      "date": "2026-10-02",
+      "event": "Student organisations and opposition groups organise demonstrations against the SIR electoral-roll revision process"
+    },
+    {
+      "date": "2026-10-03",
+      "event": "CJP and opposition supporters demonstrate in Delhi and Mumbai; hundreds of detentions are reported in Delhi"
+    },
+    {
+      "date": "2026-10-04",
+      "event": "Protests intensify across multiple cities, with demonstrators demanding electoral accountability and Kumar's resignation"
+    },
+    {
+      "date": "2026-10-10",
+      "event": "Major CJP-led mobilisation in Delhi is blocked by extensive security restrictions; mass detentions, transport disruption and restrictions on public assembly are reported"
+    },
+    {
+      "date": "2026-10-11",
+      "event": "CJP founder Abhijeet Dipke and other leaders are released following court proceedings and undertakings concerning public peace; further demonstrations continue"
+    },
+    {
+      "date": "2026-10-12",
+      "event": "INDIA opposition bloc leaders march towards the Supreme Court and submit a joint challenge concerning SIR electoral-roll revisions and related issues"
+    },
+    {
+      "date": "2026-10-12",
+      "event": "Delhi Police denotifies Jantar Mantar Road as a designated protest site and identifies alternative locations"
+    },
+    {
+      "date": "2026-10-13",
+      "event": "CJP leaders attempt to enter the barricaded Jantar Mantar area; police detain party leaders and volunteers"
+    },
+    {
+      "date": "2026-10-14",
+      "event": "CJP leaders Ashutosh Ranka and Saurav Das are placed in five-day judicial custody following their detention; opposition leaders criticise the arrests"
+    },
+    {
+      "date": "2026-10-14",
+      "event": "CJP founder Abhijeet Dipke announces a further tricolour demonstration at Connaught Place for 16 October"
+    }
+  ],
+  "military": {
+    "governmentForces": "Delhi Police / Central Reserve Police Force (CRPF) / other deployed security personnel",
+    "rebelForces": "Civilian protesters, students, CJP supporters and opposition demonstrators"
+  },
   "globalPowerRankings": []
 }
 ]
