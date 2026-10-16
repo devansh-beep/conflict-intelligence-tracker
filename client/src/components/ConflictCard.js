@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { conflictTypeColors, statusColors } from '../data/conflictsData';
  
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000'; 
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://conflict-intelligence-tracker.onrender.com';
 const formatNumber = (n) => {
   if (!n) return '—';
   if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
